@@ -1,2 +1,2 @@
 # docker
-各种的组件的docker，放本地[~/work/docker]，数据映射到[~/data/docker]
+各种的组件的docker，git放【~/work/docker】，数据挂载到【~/data/docker】
