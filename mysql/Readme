@@ -1,0 +1,13 @@
+docker network create --subnet=172.172.0.0/24 mysql
+
+
+
+#mysql_1的ip
+
+172.172.0.11
+
+
+
+#mysql_1的ip
+
+172.172.0.2

@@ -1,0 +1,9 @@
+docker network create --subnet=172.173.0.0/24 redis
+
+#mysql_1的ip
+172.173.0.2
+
+
+#用docker启动的redis客户端,进入redis_1的客户端
+docker run -it --rm --network=redis redis redis-cli -h 172.173.0.2
+
